@@ -133,3 +133,24 @@ kloc=xrange(11,392), cplx = [1,2,3,4], rely = [1,2,3,4]
   - "Flight" has less code range
   - "Flight" has higher program complexity
   - "Flight" has higher required software reliability
+
+#### Comparison2: Three key differences between osp and osp2
+OSP:
+```
+Prec = [1,2], site = [3], tool = [2,3]
+```
+  -	Prec (Precedentedness) can be from very low to low<br/>
+		Site (multisite development) can be nominal<br/>
+		Tool (use of software tools) can be from low to nominal<br/>
+OSP2:
+```
+Prec = [3,4,5], site = [6], tool = [5]
+```
+  -	Prec (Precedentedness) can be from nominal to very high<br/>
+		Site (multisite development) can be extra high<br/>
+		Tool (use of software tools) can be very high<br/>
+
+- Conclusion:
+  - "osp2" has higher precedentedness
+  - "osp2" uses more multisite development
+  - "osp2" uses more software tools
