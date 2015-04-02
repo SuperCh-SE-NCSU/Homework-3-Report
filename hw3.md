@@ -87,3 +87,26 @@ Apr. 2, 2015
  Pexp (programmer experience) -> very high<br/>
  Ltex (language and tool experience) -> very high<br/>
 - There factors are all personnel related. So these factors are all set to very high. And the personnel will be improved, the effort will be reduced.
+
+```
+@rx
+def improveToolsTechniquesPlatform(): return dict(
+   time=[3],stor=[3],pvol=[2],tool=[5], site=[6])
+```
+- Time (runtime pressure) -> nominal<br/>
+Stor (main storage constraint) -> nominal<br/>
+Pvol (platform volatility) -> low<br/>
+Tool (use of software tools) -> very high<br/>
+Site (multisite development) -> extra high<br/>
+- Then the tool usage will be improved, and platform volatility will be more stable.
+
+```
+@rx
+def reduceQuality():  return dict(
+   rely = [1], docu=[1], time = [3], cplx = [1])
+```
+- Rely (required software reliability) -> very low<br/>
+Docu (document required) -> very low<br/>
+Time (runtime pressure) -> nominal<br/>
+Cplx (program complexity) -> very low<br/>
+- The reliability is very low, few documents and low complexity will reduce the quality of software.
