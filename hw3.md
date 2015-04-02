@@ -26,7 +26,7 @@ Apr. 2, 2015
 
 - data: Database size.
 > If one team need bigger DB size, they have to ensure the relationship between different tables is OK. Also they should optimize the processing time of DB. These things will absoluately require more effort.
-
+============>
 - cplx: program complexity
 > "cplx" is one of the product attributes too. Obviously, increasing the program complexity adds the development effort.
 
