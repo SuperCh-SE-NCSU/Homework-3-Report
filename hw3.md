@@ -154,3 +154,51 @@ Prec = [3,4,5], site = [6], tool = [5]
   - "osp2" has higher precedentedness
   - "osp2" uses more multisite development
   - "osp2" uses more software tools
+
+## Theory4: Bad Smells
+#### Bad smell1
+```
+Stink[('sced','rely')] =  Stink[('sced','pvol')] = [
+[0,0,0,1,2,0],
+[0,0,0,0,1,0],
+[0,0,0,0,0,0],
+[0,0,0,0,0,0],
+[0,0,0,0,0,0],
+[0,0,0,0,0,0]]
+```
+- The limited required development schedule and high software reliability will lead to bad smell.
+- The limited required development schedule and high volatility of platform will lead to bad smell.
+
+#### Bad smell2
+```
+Stink[('pvol','pexp')] = [
+[0,0,0,0,0,0],
+[0,0,0,0,0,0],
+[0,0,0,0,0,0],
+[1,0,0,0,0,0],
+[2,1,0,0,0,0],
+[0,0,0,0,0,0]]
+```
+- The high volatility of platform and the low experience of programmer will lead to bad smell.
+
+#### Bad smell3
+```
+Stink[('time','tool')] = [
+[0,0,0,0,0,0],
+[0,0,0,0,0,0],
+[0,0,0,0,0,0],
+[0,0,0,0,0,0],
+[1,0,0,0,0,0],
+[2,1,0,0,0,0]]
+```
+- The high execution time constraint and low software tool usage will lead to bad smell.
+
+## Practice
+#### Task1: try to find some change that makes badSmells worse and effort better
+set ```Team = [1], acap = [1], aexp = [4], Pmat = [4], sced = [1]``` will make badSmells worse and effort better.
+
+#### Task2: try to find some change that makes badSmells better and effort worse
+set ```Team = [1], acap = [1], aexp = [4], Pmat = [1], sced = [3]``` will make badSmells better and effort worse.
+
+#### Task3: try to find some change that makes both badSmells and effort better
+set ```Team = [1], pexp = [4], Pmat = [4], sced = [3]```  will make both badSmells and effort better.
