@@ -1,5 +1,5 @@
 # Homework-3-Report
-Zhewwei Hu, Liang Dong, Shupeng Niu<br/>
+Zhewei Hu, Liang Dong, Shupeng Niu<br/>
 Apr. 2, 2015
 
 ## Theory1: COCOMO
