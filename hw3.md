@@ -73,3 +73,17 @@ Apr. 2, 2015
 
 - sced: length of schedule
 > If a project has sufficient time to develop, effort will decrease linearly. Because team members can do less work in unit time.
+
+## Theory2: Treatments (management actions)
+```
+ @rx
+ def improvePersonnel(): return dict(
+   acap=[5],pcap=[5],pcon=[5], aexp=[5], pexp=[5], ltex=[5])
+```
+- Acap (analyst capability) -> very high<br/>
+ Pcap (programmer capability) -> very high<br/>
+ Pcon (programmer continuality) -> very high<br/>
+ Aexp (analyst experience) -> very high<br/>
+ Pexp (programmer experience) -> very high<br/>
+ Ltex (language and tool experience) -> very high<br/>
+- There factors are all personnel related. So these factors are all set to very high. And the personnel will be improved, the effort will be reduced.
