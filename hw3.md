@@ -2,6 +2,9 @@
 Zhewwei Hu, Liang Dong, Shupeng Niu 
 Apr. 2, 2015
 
+## Theory1: COCOMO
+#### List1 Scale factors
+
 - Prec: Precedentness. 
 > Precedentness indicates whether current work is highly based on previous work or not. If so, there will be less effort, because people will tend to be familiar with previous work. Otherwise more effort will be needed.
 
