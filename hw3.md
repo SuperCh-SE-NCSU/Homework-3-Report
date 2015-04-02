@@ -196,9 +196,12 @@ Stink[('time','tool')] = [
 ## Practice
 #### Task1: try to find some change that makes badSmells worse and effort better
 set ```Team = [1], acap = [1], aexp = [4], Pmat = [4], sced = [1]``` will make badSmells worse and effort better.
+![task1](/img/hw3-1.png)
 
 #### Task2: try to find some change that makes badSmells better and effort worse
 set ```Team = [1], acap = [1], aexp = [4], Pmat = [1], sced = [3]``` will make badSmells better and effort worse.
+![task2](/img/hw3-2.png)
 
 #### Task3: try to find some change that makes both badSmells and effort better
 set ```Team = [1], pexp = [4], Pmat = [4], sced = [3]```  will make both badSmells and effort better.
+![task3](/img/hw3-3.png)
