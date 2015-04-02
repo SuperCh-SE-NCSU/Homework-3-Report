@@ -110,3 +110,26 @@ Docu (document required) -> very low<br/>
 Time (runtime pressure) -> nominal<br/>
 Cplx (program complexity) -> very low<br/>
 - The reliability is very low, few documents and low complexity will reduce the quality of software.
+
+## Theory3: Projects
+#### Three key differences between flight and ground
+- Flight:
+```
+kloc= xrange(7,418), cplx = [3,4,5,6], rely = [3,4,5]
+```
+  -	kloc (thousand line of code) range is less than 10,000<br/>
+		cplx (program complexity) can be from nominal to extra high;
+		rely (required software reliability) can be from nominal to very high.
+
+-	Ground:
+```
+kloc=xrange(11,392), cplx = [1,2,3,4], rely = [1,2,3,4]
+```
+  -	kloc (thousand line of code) range is more than 10,000<br/>
+		cplx (program complexity) can be from very low to high<br/>
+		rely (required software reliability) can be from very low to high.
+
+- Conclusion:
+  - "Flight" has less code range
+  - "Flight" has higher program complexity
+  - "Flight" has higher required software reliability
