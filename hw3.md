@@ -112,7 +112,7 @@ Cplx (program complexity) -> very low<br/>
 - The reliability is very low, few documents and low complexity will reduce the quality of software.
 
 ## Theory3: Projects
-#### Three key differences between flight and ground
+#### Comparison1: Three key differences between flight and ground
 - Flight:
 ```
 kloc= xrange(7,418), cplx = [3,4,5,6], rely = [3,4,5]
