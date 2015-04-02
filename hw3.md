@@ -45,3 +45,31 @@ Apr. 2, 2015
 - pvol: platform volatility
 > If one project should be deployed on different platforms or it should use several platforms to development, the team member should be familiar with these platforms. Training time and compatibility problem may add effort.
  
+#### List3: Downside effort multipliers -- the things that, if increased, reduce the development effort
+
+- acap: Analyst capability.
+> Highe ability of analysts in one team will decrease the effort linearly. Because they can analyse the requirements of project and make predetermination more precisely.
+
+- pcap: Programmer capability.
+> Highe ability of programmers in one team will decrease the effort linearly. Because they will write in "good" smell and leave less bugs, which can make less effort time to refactor methods.
+
+- pcon: Programmer continuity.
+> High continuity of programmers in one team will decrease the effort linearly. Because they will be more familiar with the project and need less time to train. Therefore, high "pcon" can decrease the effort.
+
+- aexp: Analyst experience.
+> Sufficient experience of analysts in one team will decrease the effort linearly. Because experienced analysts can help the whole team to make less errors, which may occur before.
+
+- pexp: Programmer experience.
+> Sufficient experience of programmers in one team will decrease the effort linearly. Because experienced programmers can write code with higher maintainability and extendability.
+
+- ltex: Language and tool experience.
+> High experience of programm languages and tools will decresde the effort linearly. Because team members will take less time to write code and debug under this situation.
+
+- tool: Use of software tools
+> Having excellent development tools during development is quite crucial and decrease the effort linearly. For instance, some IDE tools can make coding and debugging more efficient.
+
+- site: Multisite development.
+> If a project can be developed in multisite simultaneously and make few conflicts, effort will decrease linearly. And we can use version control tools, such as Git.
+
+- sced: length of schedule
+> If a project has sufficient time to develop, effort will decrease linearly. Because team members can do less work in unit time.
