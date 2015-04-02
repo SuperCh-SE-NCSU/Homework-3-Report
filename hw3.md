@@ -26,22 +26,22 @@ Apr. 2, 2015
 
 - data: Database size.
 > If one team need bigger DB size, they have to ensure the relationship between different tables is OK. Also they should optimize the processing time of DB. These things will absoluately require more effort.
-============>
-- cplx: program complexity
-> "cplx" is one of the product attributes too. Obviously, increasing the program complexity adds the development effort.
 
-- ruse: developed for reusability
-> When we're required to develop a product with higher resuabulity, we have to pay more effort in the development process, especailly in the design, coding stages.
+- cplx: Program complexity.
+> The more complex a program is, the more effort one team will have.
 
-- docu: document requirements
-> Increasing the document requirements leads to more time in writing, polishing the product documents, thus adds to the effort.
+- ruse: Software Reusability.
+> If one team want to increase the software reusability, they may take more effort to make the code drier and write some interfaces or APIs.
 
-- time: runtime presssure
-> Developing a "ns" responsbile system is more difficult than developing a "ms" respobsible system. Because we have to optimize the structure, algorithm, etc. so that our system can reponse faster. This can adds the effort.
+- docu: Documentation requirements.
+> If one team need more document during development,  they have to take more effort to design and write documentations.
 
-- stor: main storage constraints
-> Higher "stor" indicates more main storge constraints, such as less main storage space. Under this circumstance, the developer have to optimize the data structure or algorithms, therefore, adds the efforts.
+- time: Execution time constraint.
+> If one team want to decrease the response time from "ms" level to "ns" level, they have to optimize the code, database structure, deploy more efficient algorithm, and so on. So, these optimization need more effort.
+
+- stor: Main storage constraint.
+> If there are more strict storage constraint, the team may do extra work to redesign the data structure in order to take less storage and include more information, which need more effort.
 
 - pvol: platform volatility
-> Changing the platform frequently adds the developing difficulty. Because that increases the personnel training cost and increases the difficulty of scheduling development timetable.
+> If one project should be deployed on different platforms or it should use several platforms to development, the team member should be familiar with these platforms. Training time and compatibility problem may add effort.
  
