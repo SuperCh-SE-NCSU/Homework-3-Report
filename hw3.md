@@ -121,7 +121,7 @@ kloc= xrange(7,418), cplx = [3,4,5,6], rely = [3,4,5]
 		cplx (program complexity) can be from nominal to extra high;
 		rely (required software reliability) can be from nominal to very high.
 
--	Ground:
+- Ground:
 ```
 kloc=xrange(11,392), cplx = [1,2,3,4], rely = [1,2,3,4]
 ```
@@ -135,14 +135,15 @@ kloc=xrange(11,392), cplx = [1,2,3,4], rely = [1,2,3,4]
   - "Flight" has higher required software reliability
 
 #### Comparison2: Three key differences between osp and osp2
-OSP:
+- OSP:
 ```
 Prec = [1,2], site = [3], tool = [2,3]
 ```
   -	Prec (Precedentedness) can be from very low to low<br/>
 		Site (multisite development) can be nominal<br/>
 		Tool (use of software tools) can be from low to nominal<br/>
-OSP2:
+
+- OSP2:
 ```
 Prec = [3,4,5], site = [6], tool = [5]
 ```
