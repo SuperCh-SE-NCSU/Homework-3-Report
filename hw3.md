@@ -180,7 +180,7 @@ Stink[('pvol','pexp')] = [
 [2,1,0,0,0,0],
 [0,0,0,0,0,0]]
 ```
-- The high volatility of platform and the low experience of programmer will lead to bad smell.
+- The high volatility of platform and the low experience of programmer will lead to bad smell. Because when platform is not stable and programmers have limited experience, the effort of project will increase and make project hard to finish in time.
 
 #### Bad smell3
 ```
@@ -192,7 +192,7 @@ Stink[('time','tool')] = [
 [1,0,0,0,0,0],
 [2,1,0,0,0,0]]
 ```
-- The high execution time constraint and low software tool usage will lead to bad smell.
+- The high execution time constraint and low software tool usage will lead to bad smell. When the response time of project should be tiny time interval and programmers use few software tools,  the effort of project will increase and occur bad smell.
 
 ## Practice
 #### Task1: try to find some change that makes badSmells worse and effort better
